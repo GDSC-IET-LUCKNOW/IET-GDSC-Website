@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucky-web-dev/IET-GDSC-Website.git"
+    "url": "git+https://github.com/Gaurav-Verma07/IET-GDSC-Website.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lucky-web-dev/IET-GDSC-Website/issues"
+    "url": "https://github.com/Gaurav-Verma07/IET-GDSC-Website/issues"
   },
-  "homepage": "https://github.com/lucky-web-dev/IET-GDSC-Website#readme",
+  "homepage": "https://github.com/Gaurav-Verma07/IET-GDSC-Website#readme",
   "dependencies": {
     "live-server": "^1.2.2"
   }
