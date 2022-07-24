@@ -3,7 +3,7 @@
     throughtout the codebase
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap'); */
 
 *,
 *::before,
@@ -14,8 +14,9 @@
 }
 
 html {
-  font-family: sans-serif;
-  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+  /* 1rem: 10px */
+    font-size: 62.5%;
 }
 
 @media (max-width: 112.5em) {
@@ -45,6 +46,4 @@ html {
 body {
   overflow: hidden;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
-  font-family: 'Quicksand', sans-serif;
 }
