@@ -1,0 +1,122 @@
+.logo{
+    text-align: center;
+    margin: 5%;
+}
+.logo>img{
+    height: 7em;
+    transition-duration: 300ms;
+}
+
+
+.footerBottom{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.leftBlock{
+    width: 50%;
+    display: flex;
+    justify-content:center;
+}
+.footerLeftSect{
+    padding: 2% 0;
+    margin: 1%;
+    border-top:0.5px dotted rgb(96, 96, 96);
+}
+.footerLeftSect>a{
+    display: inline-block;
+    margin:0.5em;
+    font-size: 120%;
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+    font-family: 'Lato', sans-serif;
+    font-weight: 380;
+    transition-duration: 300ms;
+}
+.footerLeftSect>a:first-child{
+    margin-left: 0;
+}
+.footerLeftSect>a:last-child{
+    margin-right: 0;
+}
+.footerLeftSect>a:hover{
+    color: rgb(52, 54, 183);
+    transform:  translateY(-0.3em);
+}
+
+
+
+.rightBlock{
+    width: 50%;
+    display: flex;
+    justify-content:center;
+}
+.footerRightSect{
+    width: 70%;
+    padding: 2% 0;
+    border-top:0.5px dotted rgb(96, 96, 96);
+    margin: 1%;
+    color: rgb(30, 30, 30);
+    font-family: 'Lato', sans-serif;
+    font-weight: 380;
+    font-size: 120%;
+}
+.footerRightSect>a{
+    display: inline-block;
+    margin: 0.5em;
+    color: rgb(92, 43, 226);
+    font-size: 120%;
+    transition-duration: 200ms;
+}
+.footerRightSect>a:nth-child(2){
+    margin-left: 0;
+}
+.footerRightSect>a:hover{
+    transform: scale(140%);
+}
+.footerRightSect>p{
+    margin: 0.5em 0em;
+}
+
+
+@media (max-width: 112.5em) {
+    html {
+      font-size: 0.80rem;
+    }
+}
+@media (max-width: 75em) {
+    html {
+      font-size: 0.75rem;
+    }
+}
+@media (max-width: 56.25em) {
+    html {
+      font-size: 0.70rem;
+    }
+}
+@media (max-width: 46.25em){
+    .footerLeftSect{
+        white-space:pre;
+        margin-left: 0%;
+    }
+    .footerLeftSect>a{
+        display: block;
+        margin-left: 0em;
+        padding-top: 0em;
+        margin-top: 0em;
+    }
+}
+@media (max-width: 37.5em) {
+    .footerBottom{
+        flex-direction: column;
+        align-items: center;
+    }    
+    .footerLeftSect{
+        width: 80%;
+    }
+    .footerRightSect{
+        width: 80%;
+    }
+}  
