@@ -9,6 +9,12 @@ module.exports = {
     ecmaVersion: 'latest'
   },
   rules: {
-    'max-len': ['error', { code: 100 }]
+    'max-len': 'off',
+    'no-console': 'off',
+    'no-underscore-dangle': 'off',
+    'no-unused-vars': [
+      'error',
+      { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }
+    ]
   }
 };
