@@ -1,0 +1,35 @@
+{
+  "name": "iet-gdsc-website",
+  "version": "1.0.0",
+  "description": "This is IET Lucknow's official GDSC website",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd frontend && npm install",
+    "pre-commit": "cd frontend && lint-staged",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint",
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDSC-IET-LUCKNOW/IET-GDSC-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GDSC-IET-LUCKNOW/IET-GDSC-Website/issues"
+  },
+  "homepage": "https://github.com/GDSC-IET-LUCKNOW/IET-GDSC-Website#readme",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3"
+  }
+}
