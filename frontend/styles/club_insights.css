@@ -1,0 +1,118 @@
+body{
+  overflow: visible;
+}
+
+.insights_heading{
+  font-size: 6.5rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.insights{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.7rem; 
+  line-height: 150%; 
+}
+
+.column_one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 120rem;
+  width: 75rem;
+  border-right: 1rem solid rgb(156, 55, 156);
+  padding: 9rem;
+  padding-top: 27rem;
+  padding-bottom: 0;
+}
+
+.column_two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 120rem;
+  width: 75rem;
+  border-left: 1rem solid rgb(156, 55, 156);
+  padding: 9rem;
+  padding-bottom: 27rem;
+  padding-top: 0;
+}
+
+.element_two1{
+  background-color: rgb(251, 246, 222);
+  color: rgb(85, 79, 72);
+  border-radius: 50%;
+  padding: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.element_two2{
+  background-color: rgb(202, 221, 211);
+  color: rgb(85, 79, 72);
+  border-radius: 5rem;
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.element_one1{
+  background-color: rgb(255, 225, 225);
+  color: rgb(85, 79, 72);
+  border-radius: 5rem;
+  padding: 4rem;
+  width:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.element_one2{
+  background-color: rgb(208, 221, 249);
+  color: rgb(85, 79, 72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 27rem;
+  width: 30rem;
+  border-radius: 50%;
+  padding: 5rem;
+}
+
+@media (max-width: 112.5em) {
+  html {
+    /* 1rem: 12px */
+    font-size: 75%;
+  }
+}
+@media (max-width: 75em) {
+  html {
+    /* 1rem: 10px */
+    font-size: 62.5%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    /* 1rem: 8px */
+    font-size: 50%;
+  }
+}
+@media (max-width: 37.5em) {
+  html {
+    /* 1rem: 5px */
+    font-size: 31.25%;
+  }
+}
