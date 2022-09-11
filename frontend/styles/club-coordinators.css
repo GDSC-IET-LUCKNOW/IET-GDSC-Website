@@ -1,0 +1,42 @@
+.club-coordinators__heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 5rem;
+  line-height: 49px;
+  padding: 2rem;
+
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.club-coordinators__boxes div img {
+  width: 202.67px;
+  height: 241.4px;
+  border-radius: 200px;
+  border-width: 5px;
+}
+
+.club-coordinators__boxes {
+  display: flex;
+  padding: 4rem;
+  justify-content: space-evenly;
+}
+
+.club-coordinators__box p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.7rem;
+  line-height: 3rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.club-coordinators__box div {
+  margin-top: 3rem;
+}
