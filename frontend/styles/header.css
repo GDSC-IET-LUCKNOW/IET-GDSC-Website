@@ -1,138 +1,105 @@
-body{
-    position: absolute;
-width: 1440px;
-height: 600px;
-background-image: url(assets\header\background.png);
-background-repeat: no-repeat;
-background-size: cover;
-}
-.header{
-    position: absolute;
-width: 1319px;
-height: 80px;
-left: 80px;
-top: 28px;
-
-background: #FFFFFF;
-border-radius: 90px;
-}
-.Activities{
-    position: absolute;
-width: 151px;
-height: 32px;
-left: 712px;
-top: 25px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 36px;
-
-color: #666666;
-
-
-}
-.Insites{
-    position: absolute;
-    width: 125px;
-    height: 32px;
-    left: 878px;
-    top: 25px;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    
-    line-height: 36px;
-    
-    color: #666666;
-    
-}
-.Team{
-    position: absolute;
-width: 89px;
-height: 32px;
-left: 1007px;
-top: 25px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 36px;
-
-color: #666666;
-
-}
-.Event{
-    position: absolute;
-width: 114px;
-height: 32px;
-left: 1128px;
-top: 25px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 36px;
-
-color: #666666;
-
-}
-.Club{
-    position: absolute;
-width: 638px;
-height: 52px;
-left: 401px;
-top: 170px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 48px;
-text-align: center;
-
-color: #4E4039;
-
-}
-.IET{
-    position: absolute;
-width: 622px;
-height: 33px;
-left: 409px;
-top: 223px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 27px;
-line-height: 33px;
-/* identical to box height */
-
-text-align: center;
-
-color: #000000;
-
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/header/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  padding-top: 2rem;
 }
 
-.main{
-    position: absolute;
-width: 669px;
-height: 216px;
-left: 386px;
-top: 443px;
+.header__navbar {
+  width: 80vw;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 5rem;
+  display: flex;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+  filter: drop-shadow(4px 6px 15px rgba(0, 0, 0, 0.1));
+}
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 300;
-font-size: 30px;
-line-height: 36px;
-text-align: center;
+.header__navbar-logo {
+  position: absolute;
+  left: 1rem;
+  top: -1rem;
+  width: 7rem;
+  height: 7rem;
+}
 
-color: #A08F86;
+.header__navbar-links-a {
+  margin: 0 -2px;
+  padding: 1.25rem;
+  color: #666666;
+  text-decoration: none;
+  font-size: 2rem;
+  border-bottom: 1px solid red;
+}
 
+.header__navbar-links :nth-child(1) {
+  border-bottom: 3px solid #4285f4;
+}
+.header__navbar-links :nth-child(2) {
+  border-bottom: 3px solid #db4437;
+}
+.header__navbar-links :nth-child(3) {
+  border-bottom: 3px solid #f4b400;
+}
+.header__navbar-links :nth-child(4) {
+  border-bottom: 3px solid #0f9d58;
+}
+
+.header__body {
+  text-align: center;
+  margin-top: 6rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__body-heading {
+  color: #4e4039;
+  font-weight: 700;
+  font-size: 4rem;
+}
+.header__body-subheading {
+  font-weight: 400;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0 3rem 0;
+}
+
+.header__body-logo {
+  width: auto;
+  height: auto;
+}
+
+.header__body-text {
+  color: #a08f86;
+  font-size: 2rem;
+  width: 45rem;
+  margin: 3rem auto 0 auto;
+}
+
+.header__navbar-links :hover:nth-child(1) {
+  color: #4285f4;
+}
+.header__navbar-links :hover:nth-child(2) {
+  color: #db4437;
+}
+.header__navbar-links :hover:nth-child(3) {
+  color: #f4b400;
+}
+.header__navbar-links :hover:nth-child(4) {
+  color: #0f9d58;
+}
+@media only screen and (max-width: 600px){
+  .header{
+    padding-top:5rem;
+  }
+  .header__body-text {
+    font-size: 3.5rem;
+    width:50rem;
+  }
 }
