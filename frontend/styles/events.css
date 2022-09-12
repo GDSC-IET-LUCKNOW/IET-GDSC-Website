@@ -1,0 +1,37 @@
+.nav-link {
+  color: rgb(4, 3, 3);
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.nav-link:hover {
+  border-bottom: 2px solid rgb(237, 165, 93);
+  padding-bottom: 0.5rem;
+}
+.nav-link:active {
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+#all {
+  display: inline-block;
+}
+.all-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1%;
+  width: max-content;
+}
+.all-card-container:first-child {
+  margin-left: 2.5em;
+}
+.each-card-container {
+  padding: 0.5%;
+  text-align: center;
+}
+.card {
+  box-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+  border-radius: 100%;
+  padding: 5%;
+}
