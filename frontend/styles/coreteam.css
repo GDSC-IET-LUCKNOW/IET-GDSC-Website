@@ -30,56 +30,60 @@ td{
 }
 
 .coreteam_ashutosh{
-    border: 5px solid transparent;
-    background: linear-gradient(85deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
-    background-size: 200%;
     z-index: -1;
-    animation: animate 20s linear infinite;
-    
+    border-left: 5px solid #4285F4;
+    border-right: 5px solid #DB4437;
+    border-top: 5px solid #F4B400;
+    border-bottom: 5px solid #0F9D58;
+  
 }
 
 
 .coreteam_mohak{
-    border: 5px solid transparent;
-    background: linear-gradient(85deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
-    background-size: 200%;
-    z-index: -1;
-    animation: animate 20s linear infinite;  
-    
+  z-index: -1;
+  border-left: 5px solid #4285F4;
+  border-right: 5px solid #DB4437;
+  border-top: 5px solid #F4B400;
+  border-bottom: 5px solid #0F9D58;
+
 }
 
 
 
 .coreteam_tushar{
-    border: 5px solid transparent;
-    background: linear-gradient(85deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
-    background-size: 200%;
-    z-index: -1;
-    animation: animate 20s linear infinite;    
+  z-index: -1;
+  border-left: 5px solid #4285F4;
+  border-right: 5px solid #DB4437;
+  border-top: 5px solid #F4B400;
+  border-bottom: 5px solid #0F9D58;
+    
 }
 
 .coreteam_ritika{
-    border: 5px solid transparent;
-    background: linear-gradient(85deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
-    background-size: 200%;
-    z-index: -1;
-    animation: animate 20s linear infinite;  
+  z-index: -1;
+  border-left: 5px solid #4285F4;
+  border-right: 5px solid #DB4437;
+  border-top: 5px solid #F4B400;
+  border-bottom: 5px solid #0F9D58;
+
 }
 
 .coreteam_neha{
-    border: 5px solid transparent;
-    background: linear-gradient(85deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
-    background-size: 200%;
-    z-index: -1;
-    animation: animate 20s linear infinite;   
+  z-index: -1;
+  border-left: 5px solid #4285F4;
+  border-right: 5px solid #DB4437;
+  border-top: 5px solid #F4B400;
+  border-bottom: 5px solid #0F9D58;
+  
 }
 
 .coreteam_utkarsh{
-    border: 5px solid transparent;
-    background: linear-gradient(85deg, #e6fb04, #ff6600, #00ff66, #00ffff, #ff00ff, #ff0099, #6e0dd0, #ff3300, #099fff);
-    background-size: 200%;
-    z-index: -1;
-    animation: animate 20s linear infinite;  
+  z-index: -1;
+  border-left: 5px solid #4285F4;
+  border-right: 5px solid #DB4437;
+  border-top: 5px solid #F4B400;
+  border-bottom: 5px solid #0F9D58;
+
 }
 
 .coreteam_tushartext{
@@ -229,15 +233,4 @@ td{
     }
   }
 
-  @keyframes animate{
-    0%{
-      background-position: 0 0;
-    }
-    50%{
-      background-position: 400% 0;
-    }
-    100%{
-      background-position: 0 0;
-    }
-  }
 
