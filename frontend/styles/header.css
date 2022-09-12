@@ -1,11 +1,18 @@
+
 body{
-    position: absolute;
-width: 1440px;
-height: 600px;
-background-image: url(assets\header\background.png);
+    width: 100vw;
+height: 100vh;
+background-image: url(assets/header/background.png);
 background-repeat: no-repeat;
 background-size: cover;
+
 }
+.saurabh{
+    width:100vw;
+    height:100vh;
+}
+
+
 .header{
     position: absolute;
 width: 1319px;
@@ -133,6 +140,4 @@ font-size: 30px;
 line-height: 36px;
 text-align: center;
 
-color: #A08F86;
-
-}
+color: #A08F86;}
