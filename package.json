@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "install": "cd frontend && npm install",
-    "pre-commit": "cd frontend && lint-staged",
+    "precommit": "npm run precommit:frontend && npm run precommit:backend",
+    "precommit:frontend": "cd frontend && lint-staged",
+    "precommit:backend": "cd backend && lint-staged",
     "prepare": "husky install"
   },
   "lint-staged": {
