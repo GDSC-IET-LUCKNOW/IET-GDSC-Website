@@ -27,6 +27,7 @@ td{
 .coreteam_table{
   justify-content: center;
   text-align: center;
+  display: flex;
 }
 
 .coreteam_ashutosh{
@@ -186,27 +187,35 @@ td{
     height: 100%;
     border-radius: 50%;
     border: 15px solid transparent;
-    mix-blend-mode: overlay;
+    /* mix-blend-mode: overlay; */
     animation: rotate var(--duration) var(--timing) infinite;
     pointer-events: none;
   }
   
   .spinner-sector-red {
-    border-top-color: lightcoral;
+    border-top-color: rgb(66 133 244);
     --duration: 1.5s;
     --timing: ease-in-out;
   }
   
   .spinner-sector-blue {
-    border-left-color: lightblue;
+    border-left-color: rgb(219 68 55);
     --duration: 2s;
     --timing: ease-in;
   }
   
   .spinner-sector-green {
-    border-right-color: lightgreen;
+    border-right-color: #F4B400;
     --duration: 2.5s;
     --timing: ease-out;
+  }
+
+  .spinner-sector-yellow {
+
+    border-right-color: #0F9D58;
+    --duration: 2.5s;
+    --timing: ease-out;
+
   }
   
   @keyframes rotate {
