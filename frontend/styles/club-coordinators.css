@@ -11,12 +11,11 @@
   width: 21rem;
   height: 21rem;
   border-radius: 50%;
-  padding:.5rem;
-  border-left: 3px solid #4285F4;
-  border-right: 3px solid #DB4437;
-  border-top: 3px solid #F4B400;
-  border-bottom: 3px solid #0F9D58;
-
+  padding: 0.5rem;
+  border-left: 3px solid #4285f4;
+  border-right: 3px solid #db4437;
+  border-top: 3px solid #f4b400;
+  border-bottom: 3px solid #0f9d58;
 }
 
 .club-coordinators__boxes {
@@ -24,8 +23,6 @@
   padding: 4rem;
   justify-content: space-evenly;
 }
-
-
 
 .club-coordinators__box p {
   font-style: normal;
@@ -43,20 +40,19 @@
   margin-top: 3rem;
 }
 
-@media screen and (max-width:270px){
-  .club-coordinators__boxes{
+@media screen and (max-width: 270px) {
+  .club-coordinators__boxes {
     flex-direction: column;
     align-items: center;
-    
   }
   .club-coordinators__box div {
-    margin:3rem 0;
+    margin: 3rem 0;
   }
-  .club-coordinators__box p{
+  .club-coordinators__box p {
     font-size: 2.5rem;
   }
   .club-coordinators__boxes div img {
-    width:25rem;
-    height:25rem;
+    width: 25rem;
+    height: 25rem;
   }
 }

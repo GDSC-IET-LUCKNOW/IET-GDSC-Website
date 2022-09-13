@@ -1,5 +1,9 @@
-.coreteam_wavy{
-  width:98.9vw;
+.coreteam_main {
+  position: relative;
+}
+
+.coreteam_wavy {
+  width: 98.9vw;
 }
 .coreteam_heading {
   font-style: normal;
@@ -13,24 +17,29 @@
 .coreteam_box_1 {
   display: flex;
   padding: 2rem;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
 }
 
 .coreteam_box_1 img {
   width: 20rem;
   height: 20rem;
-  border-radius: 100%;
+  border-radius: 50%;
   /* padding:.5rem; */
-  border-left: 5px solid #4285F4;
-  border-right: 5px solid #DB4437;
-  border-top: 5px solid #F4B400;
-  border-bottom: 5px solid #0F9D58;
-
+  border: 5px;
+  border-style: solid;
+  border-color: #4285f4 #db4437 #f4b400 #0f9d58;
 }
 
+.coreteam_design {
+  position: absolute;
+  width: 7rem;
+  height: auto;
+  bottom: -8rem;
+  right: 8rem;
+  animation: spin 3000ms infinite linear;
+}
 
 .coreteam_img_box {
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,24 +61,33 @@
   margin-top: 3rem;
 }
 
-
-@media screen and (max-width:350px){
-  .coreteam_box_1{
+@media screen and (max-width: 350px) {
+  .coreteam_box_1 {
     flex-direction: column;
     align-items: center;
-    
   }
 
-  
   .coreteam_img_box div {
-    margin:3rem 0;
+    margin: 3rem 0;
   }
-  .coreteam_img_box p{
+  .coreteam_img_box p {
     font-size: 2.5rem;
   }
-  /* .club-coordinators__boxes div img {
-    width:25rem;
-    height:25rem;
-  }  */
 }
 
+@media screen and (max-width: 600px) {
+  .coreteam_box_1 img {
+    border: 3px;
+    border-style: solid;
+    border-color: #4285f4 #db4437 #f4b400 #0f9d58;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
