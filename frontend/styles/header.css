@@ -1,0 +1,106 @@
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/header/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  padding-top: 2rem;
+}
+
+.header__navbar {
+  width: 80vw;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 1.3rem 2rem;
+  border-radius: 5rem;
+  display: flex;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: center; */
+  filter: drop-shadow(4px 6px 15px rgba(0, 0, 0, 0.1));
+}
+
+.header__navbar-logo {
+  position: absolute;
+  left: 1rem;
+  top: -1rem;
+  width: 7rem;
+  height: 7rem;
+}
+
+.header__navbar-links-a {
+  margin: 0 -2px;
+  padding: 1.25rem;
+  color: #666666;
+  text-decoration: none;
+  font-size: 2rem;
+  border-bottom: 1px solid red;
+}
+
+.header__navbar-links :nth-child(1) {
+  border-bottom: 3px solid #4285f4;
+}
+.header__navbar-links :nth-child(2) {
+  border-bottom: 3px solid #db4437;
+}
+.header__navbar-links :nth-child(3) {
+  border-bottom: 3px solid #f4b400;
+}
+.header__navbar-links :nth-child(4) {
+  border-bottom: 3px solid #0f9d58;
+}
+
+.header__body {
+  text-align: center;
+  margin-top: 6rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__body-heading {
+  color: #4e4039;
+  font-weight: 700;
+  font-size: 4rem;
+}
+.header__body-subheading {
+  font-weight: 400;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0 3rem 0;
+}
+
+.header__body-logo {
+  width: auto;
+  height: auto;
+}
+
+.header__body-text {
+  color: #a08f86;
+  font-size: 2rem;
+  width: 45rem;
+  margin: 3rem auto 0 auto;
+}
+
+.header__navbar-links :hover:nth-child(1) {
+  color: #4285f4;
+}
+.header__navbar-links :hover:nth-child(2) {
+  color: #db4437;
+}
+.header__navbar-links :hover:nth-child(3) {
+  color: #f4b400;
+}
+.header__navbar-links :hover:nth-child(4) {
+  color: #0f9d58;
+}
+
+@media only screen and (max-width: 600px){
+  .header{
+    padding-top:5rem;
+  }
+  .header__body-text {
+    font-size: 3.5rem;
+    width:50rem;
+  }
+}
