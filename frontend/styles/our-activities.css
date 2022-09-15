@@ -1,176 +1,91 @@
-html{
-    scroll-behavior: smooth;
-}
-#our {
-    position: absolute;
-    width: 545px;
-    height: 59px;
-    left: 486px;
-    top: 3293px;
+#main{
+    margin: .5rem;
+    padding: .5rem;
+    position:relative;
     
+}
+h1{
+   
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 70px;
-    line-height: 49px;
-    /* or 70% */
-    
+    font-size: 4rem;
+    line-height: 3rem;
+   
     text-align: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
-    
-    color: #000000;
 }
- 
-#main {
-   position:absolute;
-   top: 3293px;
-   left: 73px;
-   width: 1299px;
-   height: 1351px;
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    display: flex;
+    align-items: flex-end;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+   
+   
 }
-/* FRAME DESIGN */
-.frame {
-    position: absolute;
-    width: 735px;
-    height: 352px;
-    background: #FFFFFF;
-    border-radius: 91px;
-}
-#frameone {
-    left: 637px;
-    top: 3477px;
-    box-shadow: inset 0px 4px 26px rgba(219, 68, 55, 0.25);
-}
-#frametwo {
-left: 73px;
-top: 3908px;
-box-shadow: inset 0px 4px 26px rgba(84, 168, 127, 0.33);
-}
-
-#framethree {
-left: 637px;
-top: 4312px;
-box-shadow: inset 0px 4px 26px rgba(66, 133, 244, 0.34);
-}
-/* .......... */
-
-/* logo design */
-
-#logo1 {
-    position: absolute;
-    width: 69px;
-    height: 66px;
-    left: 1179px;
-    top: 4021.79px;
-    }
-#logo2 {
-    position:absolute;
-    width: 44px;
-    height: 46px;
-    left: 1098px;
-    top: 4131px;
-    transform: rotate(45deg);
-}
-
-/* ............. */
-
-/* Circle Design */
-.circle {
-    position:absolute;
-    width: 71px;
-    height: 68px;
-}
-#circle1 {
-   left: 602px;
-    top: 3612px;
- }
-#circle2 {
-    left: 772px;
-    top: 4036px;
-}
-#circle3 {
-   left: 601px;
-    top: 4444px;
-}
-
-
-/* .......... */
-/* Android JAm */
-#andoidjam {
-    position: absolute;
-    width: 335px;
-    height: 49px;
-    left: 713px;
-    top: 3490px;
-}
-
-#contentjam {
-    position: absolute;
-    width: 622px;
-    height: 259px;
-    left: 713px;
-    top: 3540px;
-
-}
-/* Android JAm */
-/* fluter */
-#flutter {
-    position: absolute;
-    width: 200px;
-    height: 49px;
-    left: 151px;
-    top: 3950px;
-}
-
- #contentflutter {
-    position: absolute;
-    width: 551px;
-    height: 185px;
-    left: 151px;
-    top:4013px;
-
- }
- /* fluter */
- 
- /* DSA */
- #dsa {
-    position:absolute;
-    width: 267px;
-    height: 49px;
-    left: 713px;
-    top: 4358px;
-}
- #contentdsa {
-    position: absolute;
-    width: 622px;
-    height: 259px;
-    left: 713px;
-    top: 4425px;
-}
- /* DSA */
- /* class content and heading  */
 .content {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
-    line-height: 37px;
+    font-size: 1.25rem;
+    line-height: 2rem;
     /* or 185% */
     font-feature-settings: 'pnum' on, 'lnum' on;
-    color: #000000;
+   
 }
-.heading {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 40px;
-    line-height: 49px;
-    /* identical to box height, or 122% */
-
-    display: flex;
-    align-items: flex-end;
-    font-feature-settings: 'pnum' on, 'lnum' on;
-    color: #000000;
-
+.box {
+    padding: 2.5rem;
+    border-width: 1rem;
+    width: 45rem;
+    height: 21rem;
+    background: #FFFFFF;
+    border-radius: 6rem;
+   
 }
- /* class content and heading  */
+#box1{
+    float:right;
+    box-shadow: inset 0rem 0.25rem 1.5rem rgba(219, 68, 55, 0.25);
+    margin-bottom: 5%;
+    
+}
+#box2{
+    float:left;
+ 
+    box-shadow: inset 0rem 0.25rem 1.5rem rgba(84, 168, 127, 0.33);
+    margin-bottom: 5%;
+}
+#box3{
+    float:right;
+   
+    box-shadow: inset 0rem 0.25rem 1.5rem rgba(66, 133, 244, 0.34);
+    margin-bottom: 5%;
+}
+#logo{
+     float:right;
+}
+#logo1 {
+    float:right;
+    padding-top: 15rem; 
+    width: 4rem;
+    height: 4rem;
+    /* align-self: flex-end; */
+   
+    
+
+    }
+#logo2 {
+    padding-right: 15rem;
+    float:right;
+    padding-top: 6rem;
+    width: 2.5rem;
+    height: 2.8rem;
+    /* align-self: flex-end;  */
+}
+/* #circle1{
+    margin-left: 41.81102888957877rem;
+    margin-top: 16.5354351540707rem;
+} */
