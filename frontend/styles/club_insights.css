@@ -35,16 +35,18 @@
 }
 .column_one-line1 {
   position: absolute;
+  z-index: 0;
   right: 0;
   top: 33rem;
-  width: 19rem;
+  width: 20rem;
   border-bottom: 3px solid #db4437;
 }
 .column_one-line2 {
   position: absolute;
+  z-index: 0;
   right: 0;
   top: 67rem;
-  width: 21.7rem;
+  width: 23rem;
   border-bottom: 3px solid #4285f4;
 }
 
@@ -64,20 +66,23 @@
 .column_two-line1 {
   position: absolute;
   left: 0;
+  z-index: 0;
   top: 16rem;
-  width: 17rem;
+  width: 20rem;
   border-bottom: 3px solid #f4b400;
 }
 .column_two-line2 {
   position: absolute;
   left: 0;
+  z-index: 0;
   top: 48rem;
-  width: 19.7rem;
+  width: 21rem;
   border-bottom: 3px solid #54a87f;
 }
 
 .element_one1 {
   background-color: rgb(255, 225, 225);
+  z-index: 100;
   color: rgb(85, 79, 72);
   border-radius: 5rem;
   padding: 3rem;
@@ -87,6 +92,7 @@
 
 .element_one2 {
   background-color: rgb(208, 221, 249);
+  z-index: 100;
   color: rgb(85, 79, 72);
   display: flex;
   align-items: center;
@@ -101,6 +107,7 @@
 .element_two1 {
   width: 27rem;
   background-color: rgb(251, 246, 222);
+  z-index: 100;
   color: rgb(85, 79, 72);
   border-radius: 50%;
   padding: 3.5rem;
@@ -110,6 +117,7 @@
 .element_two2 {
   width:21rem;
   background-color: rgb(202, 221, 211);
+  z-index: 100;
   color: rgb(85, 79, 72);
   border-radius: 6rem;
   padding: 3rem;
