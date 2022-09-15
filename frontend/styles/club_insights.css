@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .club_insights {
   margin: 5rem 0;
   background-image: url('../assets/club_insights/insightsVector.svg');
@@ -28,7 +31,7 @@
   height: 85rem;
   width: 75rem;
   border-right: 0.3rem solid rgb(156, 55, 156);
-  padding: 9rem;
+  padding-right: 9rem;
   padding-top: 16rem;
   padding-bottom: 0;
   position: relative;
@@ -38,7 +41,7 @@
   z-index: 0;
   right: 0;
   top: 33rem;
-  width: 20rem;
+  width: 30rem;
   border-bottom: 3px solid #db4437;
 }
 .column_one-line2 {
@@ -46,7 +49,7 @@
   z-index: 0;
   right: 0;
   top: 67rem;
-  width: 23rem;
+  width: 30rem;
   border-bottom: 3px solid #4285f4;
 }
 
@@ -58,7 +61,7 @@
   height: 85rem;
   width: 75rem;
   border-left: 0.3rem solid rgb(156, 55, 156);
-  padding: 9rem;
+  padding-left: 9rem;
   padding-bottom: 22rem;
   padding-top: 0;
   position: relative;
@@ -68,7 +71,7 @@
   left: 0;
   z-index: 0;
   top: 16rem;
-  width: 20rem;
+  width: 30rem;
   border-bottom: 3px solid #f4b400;
 }
 .column_two-line2 {
@@ -76,7 +79,7 @@
   left: 0;
   z-index: 0;
   top: 48rem;
-  width: 21rem;
+  width: 30rem;
   border-bottom: 3px solid #54a87f;
 }
 
