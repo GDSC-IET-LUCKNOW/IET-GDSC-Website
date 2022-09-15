@@ -20,17 +20,6 @@
   padding: 2rem;
   justify-content: space-evenly;
 }
-
-.coreteam_box_1 img {
-  width: 20rem;
-  height: 20rem;
-  border-radius: 50%;
-  /* padding:.5rem; */
-  border: 5px;
-  border-style: solid;
-  border-color: #4285f4 #db4437 #f4b400 #0f9d58;
-}
-
 .coreteam_design {
   position: absolute;
   width: 7rem;
@@ -39,14 +28,44 @@
   right: 8rem;
   animation: spin 3000ms infinite linear;
 }
-
-.coreteam_img_box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.coreteam_img_box1 img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+   padding:.4rem; 
+  border: 5px;
+  border-style: solid;
+  border-color: #db4437;
+}
+.coreteam_img_box2 img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+   padding:.4rem; 
+  border: 5px;
+  border-style: solid;
+  border-color:#f4b400 ;
+}
+.coreteam_img_box3 img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+   padding:.4rem; 
+  border: 5px;
+  border-style: solid;
+  border-color: #0f9d58;
+}
+.coreteam_img_box4 img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+   padding:.4rem; 
+  border: 5px;
+  border-style: solid;
+  border-color:#4285f4;
 }
 
-.coreteam_img_box p {
+.coreteam_img_box1 p {
   font-style: normal;
   font-weight: 500;
   font-size: 2rem;
@@ -57,7 +76,39 @@
   align-items: flex-end;
   text-align: center;
 }
+.coreteam_img_box2 p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
 
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  text-align: center;
+}
+.coreteam_img_box3 p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  text-align: center;
+}
+.coreteam_img_box4 p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 3rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  text-align: center;
+}
 .coreteam_img_box div {
   margin-top: 3rem;
 }
@@ -77,10 +128,29 @@
 }
 
 @media screen and (max-width: 600px) {
-  .coreteam_box_1 img {
+  .coreteam_img_box1 img {
+     padding:.3rem; 
     border: 3px;
     border-style: solid;
-    border-color: #4285f4 #db4437 #f4b400 #0f9d58;
+    border-color: #db4437;
+  }
+  .coreteam_img_box2 img {
+     padding:.3rem; 
+    border: 3px;
+    border-style: solid;
+    border-color:#f4b400 ;
+  }
+  .coreteam_img_box3 img {
+     padding:.3rem; 
+    border: 3px;
+    border-style: solid;
+    border-color: #0f9d58;
+  }
+  .coreteam_img_box4 img {
+    padding:.3rem; 
+    border: 3px;
+    border-style: solid;
+    border-color:#4285f4;
   }
 }
 
