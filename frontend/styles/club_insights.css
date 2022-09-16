@@ -28,7 +28,7 @@
   height: 85rem;
   width: 75rem;
   border-right: 0.3rem solid rgb(156, 55, 156);
-  padding: 9rem;
+  padding-right: 9rem;
   padding-top: 16rem;
   padding-bottom: 0;
   position: relative;
@@ -38,7 +38,7 @@
   z-index: 0;
   right: 0;
   top: 33rem;
-  width: 20rem;
+  width: 30rem;
   border-bottom: 3px solid #db4437;
 }
 .column_one-line2 {
@@ -46,7 +46,7 @@
   z-index: 0;
   right: 0;
   top: 67rem;
-  width: 23rem;
+  width: 30rem;
   border-bottom: 3px solid #4285f4;
 }
 
@@ -58,7 +58,7 @@
   height: 85rem;
   width: 75rem;
   border-left: 0.3rem solid rgb(156, 55, 156);
-  padding: 9rem;
+  padding-left: 9rem;
   padding-bottom: 22rem;
   padding-top: 0;
   position: relative;
@@ -68,7 +68,7 @@
   left: 0;
   z-index: 0;
   top: 16rem;
-  width: 20rem;
+  width: 30rem;
   border-bottom: 3px solid #f4b400;
 }
 .column_two-line2 {
@@ -76,7 +76,7 @@
   left: 0;
   z-index: 0;
   top: 48rem;
-  width: 21rem;
+  width: 30rem;
   border-bottom: 3px solid #54a87f;
 }
 
@@ -125,9 +125,6 @@
 }
 
 @media (max-width: 37.5rem) {
-  html{
-    background-color: #4285f4;
-  }
   .insights{ 
     flex-direction: column; 
     font-size: 13px;
@@ -136,11 +133,13 @@
    border: none;
    padding: 0;
    height: 20em;
+   width: auto;
   }
   .column_two{ 
     border: none;
     padding: 0;
     height: 20em;
+    width: auto;
   }
   .column_one-line1 {
     right: auto;

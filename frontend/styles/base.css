@@ -16,7 +16,7 @@
 html {
   font-family: 'Lato', sans-serif;
   /* 1rem: 10px */
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 @media (max-width: 112.5em) {
@@ -45,4 +45,5 @@ html {
 }
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
