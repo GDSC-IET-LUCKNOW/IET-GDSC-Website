@@ -32,37 +32,29 @@
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
-   padding:.4rem; 
-  border: 5px;
-  border-style: solid;
-  border-color: #db4437;
+   padding:.4rem;
+   border:3px solid #db4437; 
 }
 .coreteam_img_box2 img {
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
    padding:.4rem; 
-  border: 5px;
-  border-style: solid;
-  border-color:#f4b400 ;
+   border:3px solid #f4b400; 
 }
 .coreteam_img_box3 img {
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
    padding:.4rem; 
-  border: 5px;
-  border-style: solid;
-  border-color: #0f9d58;
+   border:3px solid #0f9d58;
 }
 .coreteam_img_box4 img {
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
    padding:.4rem; 
-  border: 5px;
-  border-style: solid;
-  border-color:#4285f4;
+   border:3px solid #4285f4;
 }
 
 .coreteam_img_box1 p {
