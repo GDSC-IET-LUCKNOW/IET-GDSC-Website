@@ -5,16 +5,18 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap'); */
 
-*,
+/* *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+} */
 
 html {
   font-family: 'Lato', sans-serif;
+  --col-deepblue: #4478e3;
+
   /* 1rem: 10px */
   font-size: 62.5%;
 }
@@ -25,24 +27,28 @@ html {
     font-size: 75%;
   }
 }
+
 @media (max-width: 75em) {
   html {
     /* 1rem: 10px */
     font-size: 62.5%;
   }
 }
+
 @media (max-width: 56.25em) {
   html {
     /* 1rem: 8px */
     font-size: 50%;
   }
 }
+
 @media (max-width: 37.5em) {
   html {
     /* 1rem: 5px */
     font-size: 31.25%;
   }
 }
+
 body {
   box-sizing: border-box;
   overflow-x: hidden;
