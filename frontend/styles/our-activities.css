@@ -1,105 +1,106 @@
-
-#our_activities_main{
-    position: relative;
-    height: 120rem;
-    width: 120rem;
-    
-  
-}
-#box1_container{
-    width:100rem;
-    align-self: flex-end;
-    margin-left: 22%;
-}
-#box3_container{
-    
-    width:124rem;
-    height: 100rem;
-    align-self: flex-end;
-    
+.our_activities_main {
+  position: relative;
 }
 
+.our_activities_main h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 8rem;
+  line-height: 8rem;
 
-h1{
-   
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 8rem;
-        line-height: 8rem;
-        
-        text-align: center;
-        font-feature-settings: 'pnum' on, 'lnum' on;
-    }
-    h3 {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 5rem;
-        line-height: 5rem;
-        
-        font-feature-settings: 'pnum' on, 'lnum' on;
-        margin-bottom: 2rem;
-       
-    }
-    .content {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 300;
-        font-size: 1.5rem;
-        line-height: 3rem;
-        font-feature-settings: 'pnum' on, 'lnum' on;
-       
-     }
-    .box {
-        padding: 4rem;
-        margin: 4rem;
-        border-width: 2rem;
-        width: 65rem;
-        height: 35rem; 
-        
-        background: #FFFFFF;
-        border-radius: 6rem;
-        
-    }
-    #box1{
-        float:right;
-       align-self: flex-end;
-        box-shadow: inset 0px 4px 24px rgba(219, 68, 55, 0.25);
-        
-    }
-    #box2{
-        float:left;
-        align-self: flex-end;
-        box-shadow: inset  0px 4px 24px rgba(84, 168, 127, 0.33);
-        
-    }
-    #box3{
-         float:right;
-        align-self: flex-end;
-        box-shadow: inset  0px 4px 24px rgba(66, 133, 244, 0.34);
-        margin-left: 50%;
-    }
-    #logo{
-         float:right;
-         margin-bottom: 10rem;
-         
-         
-    }
-    #logo1 {
-        float:right;
-        padding-top: 20rem; 
-        width: 4rem;
-        height: 4rem;
-        align-self: flex-end;
-        
-    
-        }
-    #logo2 {
-        padding-right: 25rem;
-        float:right;
-        padding-top: 10rem;
-        width: 44px;
-        height: 46px;
-        align-self: flex-end; 
-    }
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.our_activities_box h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 4rem;
+  line-height: 3rem;
+
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  margin-bottom: 2rem;
+}
+.our_activities_boxes {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.our_activities_content {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.our_activities_box {
+  position: relative;
+  width: 55%;
+  height: 35rem;
+  padding: 4rem;
+  margin: 4rem;
+  border-width: 2rem;
+
+  background: #ffffff;
+  border-radius: 6rem;
+}
+.our_activities_box1 {
+  align-self: flex-end;
+  box-shadow: inset 0px 4px 24px rgba(219, 68, 55, 0.25);
+}
+.our_activities_box2 {
+  align-self: flex-start;
+  box-shadow: inset 0px 4px 24px rgba(84, 168, 127, 0.33);
+}
+.our_activities_box3 {
+  align-self: flex-end;
+  box-shadow: inset 0px 4px 24px rgba(66, 133, 244, 0.34);
+}
+
+.our_activities_logo {
+  position: absolute;
+  top: 1px;
+}
+
+.activities_logo1 {
+  position: absolute;
+  height: auto;
+  bottom: 62rem;
+  right: 4rem;
+  width: 8rem;
+}
+
+.activities_logo2 {
+  position: absolute;
+  height: auto;
+  bottom: 52rem;
+  right: 14rem;
+  width: 3rem;
+}
+
+.our_activities_circle {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 14rem;
+}
+
+.circle1 {
+  background: rgba(219, 68, 55, 0.75);
+  left: -3rem;
+}
+
+.circle2 {
+  background: rgba(84, 168, 127, 0.75);
+  right: -3rem;
+}
+
+.circle3 {
+  background: rgba(66, 133, 244, 0.75);
+  left: -3rem;
+}
