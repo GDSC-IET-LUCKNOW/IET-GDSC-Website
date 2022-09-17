@@ -29,6 +29,7 @@
   animation: spin 3000ms infinite linear;
 }
 .coreteam_img_box1 img {
+  object-fit: cover;
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
@@ -36,6 +37,7 @@
    border:3px solid #db4437; 
 }
 .coreteam_img_box2 img {
+  object-fit: cover;
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
@@ -43,6 +45,7 @@
    border:3px solid #f4b400; 
 }
 .coreteam_img_box3 img {
+  object-fit: cover;
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
@@ -50,6 +53,7 @@
    border:3px solid #0f9d58;
 }
 .coreteam_img_box4 img {
+  object-fit: cover;
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
