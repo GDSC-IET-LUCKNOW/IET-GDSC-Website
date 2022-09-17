@@ -52,6 +52,7 @@
 .events__main {
   position: relative;
   width: 100%;
+  padding: 0 10rem;
 }
 .events__main::before {
   position: absolute;

@@ -34,7 +34,7 @@
   height: 20rem;
   border-radius: 50%;
    padding:.4rem;
-   border:3px solid #db4437; 
+   border:1px solid #db4437; 
 }
 .coreteam_img_box2 img {
   object-fit: cover;
@@ -42,7 +42,7 @@
   height: 20rem;
   border-radius: 50%;
    padding:.4rem; 
-   border:3px solid #f4b400; 
+   border:1px solid #f4b400; 
 }
 .coreteam_img_box3 img {
   object-fit: cover;
@@ -50,7 +50,7 @@
   height: 20rem;
   border-radius: 50%;
    padding:.4rem; 
-   border:3px solid #0f9d58;
+   border:1px solid #0f9d58;
 }
 .coreteam_img_box4 img {
   object-fit: cover;
@@ -58,7 +58,7 @@
   height: 20rem;
   border-radius: 50%;
    padding:.4rem; 
-   border:3px solid #4285f4;
+   border:1px solid #4285f4;
 }
 
 .coreteam_img_box1 p {
