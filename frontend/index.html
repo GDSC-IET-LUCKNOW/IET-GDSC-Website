@@ -1,80 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="styles/base.css" />
-    <link rel="stylesheet" href="styles/club-coordinators.css">
-    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/club-coordinators.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
     <title>Official IET GDSC</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="club-coordinators__main">
-        <h2 class="club-coordinators__heading">Club Coordinators</h2>
-        <div class="club-coordinators__boxes">
-            <div class="club-coordinators__box">
-                <img src="./assets/club_coordinators_images/Aastha.jpeg" alt="">
-                <div>
-                    <p>
-                        Astha Chauhan
-                    </p>
-                    <p>
-                        Founder and Lead
-                    </p>
-                </div>
-            </div>
-            <div class="club-coordinators__box">
-                <img src="./assets/club_coordinators_images/upendra.png" alt="">
-                <div>
-                    <p>
-                        Dr. Upendra Kumar
-                    </p>
-                    <p>
-                        Faculty Advisor
-                    </p>
-                </div>
-            </div>
+      <h2 class="club-coordinators__heading">Club Coordinators</h2>
+      <div class="club-coordinators__boxes">
+        <div class="club-coordinators__box">
+          <img src="./assets/club_coordinators_images/Aastha.jpeg" alt="" />
+          <div>
+            <p>Astha Chauhan</p>
+            <p>Founder and Lead</p>
+          </div>
         </div>
-    </div>
-    <h2 class="footer__iet">
-        <span class="footer__I">I</span>
-        <span class="footer__E">E</span>
-        <span class="footer__T">T</span>
-        </h2>
-
-    <h3 class="footer__GDSC">
-        GDSC
-    </h3>
-    <div>
-        <img src="images/Vector.png" alt="vector">
-    </div>
-
-    <div class="footer__made-div">
-        <div class="footer__made">
-            Made with ❤️
+        <div class="club-coordinators__box">
+          <img src="./assets/club_coordinators_images/upendra.png" alt="" />
+          <div>
+            <p>Dr. Upendra Kumar</p>
+            <p>Faculty Advisor</p>
+          </div>
         </div>
+      </div>
+    </div>
+    <section class="footer">
+      <h2 class="footer__iet">
+        <span>I</span>
+        <span>E</span>
+        <span>T</span>
+      </h2>
+
+      <h3 class="footer__main_heading">GDSC</h3>
+      <div>
+        <img class="footer__vector" src="assets/footer/Vector.png" alt="vector" />
+      </div>
+
+      <div class="footer__made-div">
+        <div class="footer__made">Made with ❤️</div>
         <div class="footer__made-img">
-            <img src="images/Instagram_icon 1.png" alt="">
-            <img src="images/174857 1.png" alt="">
-            <img src="images/124010 1.png" alt="">
+          <a class="footer__made_links"> <img class="footer__link_img" src="assets/footer/instagram.png" alt="" /> </a>
+          <a
+            href="https://www.linkedin.com/company/google-developer-student-club-iet-lucknow/?originalSubdomain=in"
+            class="footer__made_links"
+          >
+            <img class="footer__link_img" src="assets/footer/linkedin.png" alt="" />
+          </a>
+          <a href="https://github.com/GDSC-IET-LUCKNOW" class="footer__made_links">
+            <img class="footer__link_img" src="assets/footer/github_logo.png" alt="" />
+          </a>
         </div>
-    </div>
+      </div>
 
-    <div>
+      <div>
         <footer>
-            <div>
-                <div class="wave" id="wave1"></div>
-                <div class="wave" id="wave2"></div>
-                <div class="wave" id="wave3"></div>
-                <div class="wave" id="wave4"></div>
-            </div>
-        </footer>
-    </div>
-    
-</body>
+          <svg viewBox="0 0 120 28">
+            <defs>
+              <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+                <feColorMatrix
+                  in="blur"
+                  mode="matrix"
+                  values="
+                     1 0 0 0 0  
+                     0 1 0 0 0  
+                     0 0 1 0 0  
+                     0 0 0 13 -9"
+                  result="goo"
+                />
+                <xfeBlend in="SourceGraphic" in2="goo" />
+              </filter>
+              <path
+                id="wave"
+                d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z"
+              />
+            </defs>
 
+            <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
+            <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
+
+            <g class="gooeff" filter="url(#goo)">
+              <circle class="drop drop1" cx="20" cy="2" r="8.8" />
+              <circle class="drop drop2" cx="25" cy="2.5" r="7.5" />
+              <circle class="drop drop3" cx="16" cy="2.8" r="9.2" />
+              <circle class="drop drop4" cx="18" cy="2" r="8.8" />
+              <circle class="drop drop5" cx="22" cy="2.5" r="7.5" />
+              <circle class="drop drop6" cx="26" cy="2.8" r="9.2" />
+              <circle class="drop drop1" cx="5" cy="4.4" r="8.8" />
+              <circle class="drop drop2" cx="5" cy="4.1" r="7.5" />
+              <circle class="drop drop3" cx="8" cy="3.8" r="9.2" />
+              <circle class="drop drop4" cx="3" cy="4.4" r="8.8" />
+              <circle class="drop drop5" cx="7" cy="4.1" r="7.5" />
+              <circle class="drop drop6" cx="10" cy="4.3" r="9.2" />
+
+              <circle class="drop drop1" cx="1.2" cy="5.4" r="8.8" />
+              <circle class="drop drop2" cx="5.2" cy="5.1" r="7.5" />
+              <circle class="drop drop3" cx="10.2" cy="5.3" r="9.2" />
+              <circle class="drop drop4" cx="3.2" cy="5.4" r="8.8" />
+              <circle class="drop drop5" cx="14.2" cy="5.1" r="7.5" />
+              <circle class="drop drop6" cx="17.2" cy="4.8" r="9.2" />
+              <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+            </g>
+            <!-- g mask="url(#xxx)">
+              <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+              </g>
+            </g -->
+          </svg>
+        </footer>
+      </div>
+    </section>
+  </body>
 </html>
